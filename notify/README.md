@@ -14,6 +14,27 @@
 1. Add the module to your project or include it as a library.
 2. Add `WorkManager` to your dependencies (if not already):
 
+## Instalação
+
+Adicione o JitPack ao seu `settings.gradle` ou `build.gradle` (nível de projeto):
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        ...
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+```
+
+Depois, adicione a dependência:
+
+dependencies {
+implementation("com.github.RobertoCesar:notify:TAG")
+}
+
+
+
 ```kotlin
 implementation("androidx.work:work-runtime-ktx:2.9.0")
 ```

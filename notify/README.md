@@ -30,7 +30,7 @@ dependencyResolutionManagement {
 Depois, adicione a dependência:
 
 dependencies {
-implementation("com.github.RobertoCesar:notify:TAG")
+implementation("com.github.RobertoCesar:notify:v1.0.0")
 }
 
 

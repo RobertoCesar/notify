@@ -64,4 +64,4 @@ Keys used:
 Developed by Roberto – feel free to contribute or fork the project.
 
 # 📄 License
-MIT License
+MIT License.
